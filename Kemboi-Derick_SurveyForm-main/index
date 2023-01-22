@@ -7,17 +7,43 @@
 
     <form id="survey-form">
         <div>
-            <label id="name">Name</label>
+            <label id="name-label">Name</label>
             <input type = "text" placeholder="enter your name"></input>
         </div>
         <div>
-            <label id="name">Email</label>
+            <label id="email-label">Email</label>
             <input type = "email" placeholder="email"></input>
         </div>
         <div>
-            <label id="name">Age</label>
-            <input type = "number" id="number" placeholder="Age"></input>
-        </div>               
+            <label id="number-label">Age</label>
+            <input type = "number" id="number" min="0" max="99" placeholder="Age"></input>
+        </div>   
+
+        <div>
+            <p id="name">Please select your favorite Web language:</p>
+        <input type="radio" value="Definately"> dafinately</input><br>
+        <input type="radio" value="Definately"> Maybe</input><br>
+        <input type="radio" value="Definately"> Not sure</input><br>
+       
+
+  <br>  
+        </div>
+        <div>
+            <label id="dropdown"> Which option best describes your current role?
+
+            </label>  
+<select>  
+<option value = "Student"> Student   
+</option>  
+<option value = "Fultime Job"> Fultime Job   
+</option>  
+<option value = "Full time learner"> Full time learner  
+</option>  
+<option value = "free"> free  
+</option>  
+</select>
+        </div>
+        
     </form>
 </body>
 </html>
