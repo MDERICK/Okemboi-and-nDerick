@@ -5,12 +5,19 @@
     <h1 id="title"><center>freeCodeCamp Survey Form</center></h1>
     <p id="description"><center>Form for entering surveys</center></p>
 
-    <form id=" survey-form">
+    <form id="survey-form">
         <div>
             <label id="name">Name</label>
             <input type = "text" placeholder="enter your name"></input>
         </div>
-       
+        <div>
+            <label id="name">Email</label>
+            <input type = "email" placeholder="email"></input>
+        </div>
+        <div>
+            <label id="name">Age</label>
+            <input type = "number" placeholder="Age"></input>
+        </div>               
     </form>
 </body>
 </html>
