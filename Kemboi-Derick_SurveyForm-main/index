@@ -43,7 +43,18 @@
 </option>  
 </select>
         </div>
-        
+        <div>
+            <p>What would you like to see improved?</p>
+
+            <label><input name="checkbox" type="checkbox" class="input-checkbox">Front-end Projects</label>
+            <label><input name="checkbox" type="checkbox" class="input-checkbox">Back-end Projects</label>
+        </div>
+
+        <Div><p>Any comments or suggestions?</p></Div>
+        <textarea id="comments" class="input-textarea" >Enter your comment here</textarea>
+        <div><button type="submit" id="submit" class="submit-button">
+            Submit
+          </button></div>
     </form>
 </body>
 </html>
